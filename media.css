@@ -106,6 +106,10 @@
         display: none;
     }
 
+    .buttons_hero1 {
+        justify-content: center;
+    }
+
     .btn {
         width: 12rem;
         font-size: 1.1rem;
@@ -124,7 +128,7 @@
     /* ***Contenido 1 sec 2 */
     .cont_1 p,
     .cont_2 p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 15rem;
     }
 
@@ -140,7 +144,9 @@
     }
 
     .cont_2 p {
-        width: 20rem;
+        width: 30rem;
+        align-self: center;
+
     }
 
     .cont_2 img {
