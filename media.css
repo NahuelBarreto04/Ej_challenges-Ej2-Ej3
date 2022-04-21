@@ -1,4 +1,8 @@
 @media (min-width:320px) and (max-width:480px) {
+    * {
+        scroll-snap-type: y mandatory;
+    }
+
     .container_header {
         background-position-x: -130px;
     }
@@ -161,7 +165,7 @@
         height: 20rem;
     }
 
-    @media (max-height:600px) {
+    @media (max-height:660px) {
 
         .container_header {
             background-position-y: 30px;
