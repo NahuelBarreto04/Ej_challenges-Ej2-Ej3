@@ -111,15 +111,18 @@ body {
 }
 
 /* ******ANIMATION************ */
+.container_header {
+    background-image: url(images/5.png);
+    background-size: cover;
+    background-position-y: -60px;
+}
 
 .container_ani {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url(images/5.png);
-    background-size: cover;
-    background-position-y: -60px;
+
 
 }
 

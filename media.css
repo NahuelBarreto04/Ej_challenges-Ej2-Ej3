@@ -1,4 +1,7 @@
 @media (min-width:320px) and (max-width:480px) {
+    .container_header {
+        background-position-x: -130px;
+    }
 
     .navbar {
         flex-wrap: wrap;
@@ -154,5 +157,47 @@
         height: 20rem;
     }
 
+    @media (max-height:600px) {
+        .container_header {
+            background-position-y: 30px;
+        }
+
+        /* ***SECTION 1 */
+        .card_hero h1 {
+            font-size: 2rem;
+        }
+
+        .card_hero p {
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            width: 10rem;
+            height: 3.2rem;
+        }
+
+        .btn2 {
+            width: 9rem;
+            font-size: 0.9rem;
+        }
+
+        /* **CONTENIDOS SECTION 2 */
+        .cont_1 p {
+            font-size: 1rem;
+        }
+
+        .cont_2 p {
+            font-size: 1rem;
+            width: 22rem;
+        }
+
+        .cont_2 img {
+            height: 10rem;
+            width: 20rem
+        }
+
+        ;
+
+    }
 
 }
